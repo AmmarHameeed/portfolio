@@ -29,6 +29,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/styles/css/style.css">
 </head>
 
@@ -95,7 +99,37 @@
             <div class="star"></div>
             <div class="star"></div>
         </div>
-        <!-- <p class="line-1 anim-typewriter" id="typewriter">Welcome! Let's create Digital Magic</p> -->
+        <div class="hero__title">
+            <div class="hero__title__top">
+                <span class="hero__title__left">
+                    <span class="hero__hover">f</span>
+                    <span class="hero__hover">r</span>
+                    <span class="hero__hover">o</span>
+                    <span class="hero__hover">n</span>
+                    <span class="hero__hover">t</span>
+                </span>
+                <span class="hero__title__dash">---</span>
+                <span class="hero__title__right">
+                    <span class="hero__hover">e</span>
+                    <span class="hero__hover">n</span>
+                    <span class="hero__hover">d</span>
+                </span>
+            </div>
+            <div class="hero__title__bottom">
+                <span class="hero__title__bottomleft">
+                    <span class="hero__hover">d</span>
+                    <span class="hero__hover">e</span>
+                    <span class="hero__hover">v</span>
+                    <span class="hero__hover">e</span>
+                    <span class="hero__hover">l</span>
+                    <span class="hero__hover">o</span>
+                    <span class="hero__hover">p</span>
+                    <span class="hero__hover">e</span>
+                    <span class="hero__hover">r</span>
+                </span>
+            </div>
+
+        </div>
         <span class="scroll-btn">
             <a href="#">
                 <span class="mouse">
@@ -166,7 +200,7 @@
             <div class="skill__item">javascript</div>
             <div class="skill__item">bootstrap</div>
             <div class="skill__item">material ui</div>
-            <div class="skill__item">API</div>
+            <div class="skill__item">rest API</div>
             <div class="skill__item">figma/psd/ai to html</div>
             <div class="skill__item">web designing</div>
             <div class="skill__item">web application</div>
@@ -294,7 +328,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -364,6 +398,7 @@
             keyboard: {
                 enabled: true,
             },
+
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
@@ -371,6 +406,24 @@
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                }
+                // 992: {
+                //     slidesPerView: 3,
+                //     spaceBetween: 50,
+                // },
             },
         });
     </script>
