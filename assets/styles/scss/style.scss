@@ -90,6 +90,7 @@
     margin: 0;
 }
 
+
 html {
     overflow-x: hidden;
     // overscroll-behavior: none;
@@ -97,15 +98,31 @@ html {
 
 body {
     min-height: 100vh;
-    overflow-x: hidden;
+    // overflow-x: hidden;
     // font-size: 1.6rem;
 
-    &.project__page {
-        overflow: hidden;
-        overscroll-behavior: none;
-        background-color: #161616;
-        // background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
-    }
+    // &.scrolling-content {
+    //     .navbar__custom{
+    //         position: sticky;
+    //         top: 25px;
+    //         padding: 15px 20px;
+    //         background: white;
+    //         box-shadow: -2px 2px 8px 1px rgba(0, 0, 0, 0.05);
+    //         transition: top .25s linear;
+    //         border-radius: 12px;
+    //         .nav__logo {
+    //             a {
+    //                 color: #000000;
+    //             }
+    //         }
+
+    //         .nav__links{
+    //             .link__item{
+    //                 color: #000000;
+    //             }
+    //         }
+    //     }
+    // }
 
 }
 
@@ -445,7 +462,7 @@ body {
     background: #F8CB54;
     height: 100vh;
     display: flex;
-    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: Bebas Neue, sans-serif;
 
     .ams__left {
         width: 50%;
@@ -504,6 +521,7 @@ body {
                 font-size: 64px;
                 font-weight: 900;
                 line-height: 56px;
+                letter-spacing: 4px;
 
                 @media screen and (max-width:992px) {
                     font-size: 56px;
@@ -526,7 +544,7 @@ body {
                 font-size: 18px;
                 line-height: 28px;
                 text-transform: math-auto;
-                font-family: 'Arvo', serif;
+                font-family: 'Inter', serif;
 
                 @media screen and (max-width:992px) {
                     font-size: 16px;
@@ -538,7 +556,7 @@ body {
 
 .services__section {
     // height: 100vh;
-    font-family: "Arvo", serif;
+    font-family: "Inter", serif;
     margin-bottom: 100px;
 
     .heading__wrapper {
@@ -549,7 +567,7 @@ body {
 
         h4 {
             font-size: 48px;
-            font-family: "Alegreya Sans SC", sans-serif;
+            font-family: Bebas Neue, sans-serif;
             font-weight: 900;
             margin-bottom: 25px;
         }
@@ -675,6 +693,7 @@ body {
     // height: 100vh;
     padding-bottom: 100px;
     background: rgba(0, 0, 0, 0.03);
+    font-family: "Inter", serif;
 
     .heading__wrapper {
         width: 75%;
@@ -684,7 +703,7 @@ body {
 
         h4 {
             font-size: 48px;
-            font-family: "Alegreya Sans SC", sans-serif;
+            font-family: Bebas Neue, sans-serif;
             font-weight: 900;
             margin-bottom: 25px;
         }
@@ -734,67 +753,80 @@ body {
             .card-header {
                 margin-top: 1.5rem;
                 display: flex;
-                align-items: center;
+                flex-flow: column;
+                // align-items: center;
                 justify-content: space-between;
 
-                p {
-                    font-weight: 600;
-                    font-size: 1.375rem;
-                    line-height: 1.25;
-                    padding-right: 1rem;
-                    text-decoration: none;
-                    color: inherit;
-                    will-change: transform;
-
-                    &:after {
-                        content: "";
-                        position: absolute;
-                        left: 0;
-                        top: 0;
-                        right: 0;
-                        bottom: 0;
+                .card__header--upper{
+                    display: flex;
+                    width: 100%;
+                    flex-flow: row;
+                    justify-content: space-between;
+                    .project__name {
+                        font-weight: 600;
+                        font-size: 1.375rem;
+                        line-height: 1.25;
+                        padding-right: 1rem;
+                        text-decoration: none;
+                        color: inherit;
+                        will-change: transform;
+    
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            right: 0;
+                            bottom: 0;
+                        }
+                    }
+                    .icon-button {
+                        border: 0;
+                        background-color: #fff;
+                        border-radius: 50%;
+                        width: 2rem;
+                        height: 2rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-shrink: 0;
+                        font-size: 1.25rem;
+                        transition: .25s ease;
+                        box-shadow: 0 0 0 1px rgba(#000, .05), 0 3px 8px 0 rgba(#000, .15);
+                        z-index: 1;
+                        cursor: pointer;
+                        color: #565656;
+        
+                        .external__link--icon {
+                            display: inline-block;
+                            width: 20px;
+                            height: 20px;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' display='block' id='EyeOpen'%3E%3Cpath d='M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19c-4.182 0-7.764-4.013-9.257-5.962a1.692 1.692 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5c4.182 0 7.764 4.013 9.257 5.962z' /%3E%3Ccircle cx='12' cy='12' r='3' /%3E%3C/svg%3E");
+                        }
+        
+                        &:hover,
+                        &:focus {
+                            background-color: #293684;
+        
+                            // color: #FFF;
+                            .external__link--icon {
+                                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' display='block' id='EyeOpen'%3E%3Cpath d='M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19c-4.182 0-7.764-4.013-9.257-5.962a1.692 1.692 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5c4.182 0 7.764 4.013 9.257 5.962z' /%3E%3Ccircle cx='12' cy='12' r='3' /%3E%3C/svg%3E");
+                            }
+                        }
                     }
                 }
-
-
-            }
-
-            .icon-button {
-                border: 0;
-                background-color: #fff;
-                border-radius: 50%;
-                width: 2.5rem;
-                height: 2.5rem;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-shrink: 0;
-                font-size: 1.25rem;
-                transition: .25s ease;
-                box-shadow: 0 0 0 1px rgba(#000, .05), 0 3px 8px 0 rgba(#000, .15);
-                z-index: 1;
-                cursor: pointer;
-                color: #565656;
-
-                .external__link--icon {
-                    display: inline-block;
-                    width: 20px;
-                    height: 20px;
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' display='block' id='EyeOpen'%3E%3Cpath d='M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19c-4.182 0-7.764-4.013-9.257-5.962a1.692 1.692 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5c4.182 0 7.764 4.013 9.257 5.962z' /%3E%3Ccircle cx='12' cy='12' r='3' /%3E%3C/svg%3E");
-                }
-
-                &:hover,
-                &:focus {
-                    background-color: #293684;
-
-                    // color: #FFF;
-                    .external__link--icon {
-                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' display='block' id='EyeOpen'%3E%3Cpath d='M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19c-4.182 0-7.764-4.013-9.257-5.962a1.692 1.692 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5c4.182 0 7.764 4.013 9.257 5.962z' /%3E%3Ccircle cx='12' cy='12' r='3' /%3E%3C/svg%3E");
+                .comppany__name{
+                    font-size: 12px;
+                    b{
+                        color: #F8CB54;
+                        text-transform: uppercase;
                     }
                 }
             }
+
+            
 
             .card-footer {
                 margin-top: 1.25rem;
@@ -887,7 +919,7 @@ body {
         .footer__tagline {
             font-size: 48px;
             font-weight: 900;
-            font-family: "Alegreya Sans SC", sans-serif;
+            font-family: Bebas Neue, sans-serif;
             text-align: center;
             color: #ffffff;
 
@@ -969,12 +1001,12 @@ body {
                 box-sizing: border-box;
                 outline: 0;
                 box-shadow: none;
-                font-family: 'Arvo', serif;
+                font-family: 'Inter', serif;
 
                 &::placeholder {
                     color: #293684;
-                    font-weight: 800;
-                    font-family: 'Arvo', serif;
+                    font-weight: 400;
+                    font-family: 'Inter', serif;
                     opacity: 0.7;
                     @media screen and (max-width:768px) {
                         font-size: 14px;
@@ -997,12 +1029,12 @@ body {
                 box-sizing: border-box;
                 outline: 0;
                 box-shadow: none;
-                font-family: 'Arvo', serif;
+                font-family: 'Inter', serif;
 
                 &::placeholder {
                     color: #293684;
-                    font-weight: 800;
-                    font-family: 'Arvo', serif;
+                    font-weight: 400;
+                    font-family: 'Inter', serif;
                     opacity: 0.7;
                 }
             }
@@ -1016,7 +1048,7 @@ body {
                 font-weight: 900;
                 text-transform: uppercase;
                 cursor: pointer;
-                font-family: "Alegreya Sans SC", sans-serif;
+                font-family: Bebas Neue, sans-serif;
 
                 @media screen and (max-width:540px) {
                     width: unset;
