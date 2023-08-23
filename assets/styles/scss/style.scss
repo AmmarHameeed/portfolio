@@ -740,18 +740,18 @@ body {
                     transform: translatey(-5px);
                 }
             }
-
+            
             .card-image {
                 overflow: hidden;
 
                 img {
                     width: 100%;
+                    min-height: 250px;
                     max-height: 250px;
                     border-radius: 10px;
                     object-fit: cover;
                 }
             }
-
 
             .card-header {
                 margin-top: 1.5rem;
