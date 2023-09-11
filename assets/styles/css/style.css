@@ -109,7 +109,7 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #F8CB54;
+  background-color: #f8cb54;
   -webkit-transform-origin: bottom right;
           transform-origin: bottom right;
   -webkit-transition: -webkit-transform 0.25s ease-out;
@@ -218,8 +218,8 @@ body {
   left: 20%;
   width: var(--star-tail-length);
   height: var(--star-tail-height);
-  color: #F8CB54;
-  background: linear-gradient(45deg, #F8CB54, transparent);
+  color: #f8cb54;
+  background: linear-gradient(45deg, #f8cb54, transparent);
   border-radius: 50%;
   -webkit-filter: drop-shadow(0 0 6px currentColor);
           filter: drop-shadow(0 0 6px currentColor);
@@ -235,304 +235,304 @@ body {
   }
 }
 .hero__section .stars .star:nth-child(1) {
-  --star-tail-length: 5.53em;
-  --top-offset: 88.58vh;
-  --fall-duration: 7.413s;
-  --fall-delay: 0.012s;
+  --star-tail-length: 5.63em;
+  --top-offset: 90.69vh;
+  --fall-duration: 6.048s;
+  --fall-delay: 4.432s;
 }
 .hero__section .stars .star:nth-child(2) {
-  --star-tail-length: 6.6em;
-  --top-offset: 8.95vh;
-  --fall-duration: 9.648s;
-  --fall-delay: 4.829s;
+  --star-tail-length: 6.85em;
+  --top-offset: 71.36vh;
+  --fall-duration: 11.207s;
+  --fall-delay: 2.843s;
 }
 .hero__section .stars .star:nth-child(3) {
-  --star-tail-length: 6.07em;
-  --top-offset: 25.01vh;
-  --fall-duration: 8.437s;
-  --fall-delay: 1.409s;
+  --star-tail-length: 5.74em;
+  --top-offset: 78.62vh;
+  --fall-duration: 7.691s;
+  --fall-delay: 2.183s;
 }
 .hero__section .stars .star:nth-child(4) {
-  --star-tail-length: 6.15em;
-  --top-offset: 80.21vh;
-  --fall-duration: 9.127s;
-  --fall-delay: 3.454s;
+  --star-tail-length: 6.13em;
+  --top-offset: 98.21vh;
+  --fall-duration: 6.422s;
+  --fall-delay: 1.995s;
 }
 .hero__section .stars .star:nth-child(5) {
-  --star-tail-length: 7.43em;
-  --top-offset: 27.89vh;
-  --fall-duration: 10.411s;
-  --fall-delay: 0.812s;
+  --star-tail-length: 5.07em;
+  --top-offset: 76.47vh;
+  --fall-duration: 11.903s;
+  --fall-delay: 2.124s;
 }
 .hero__section .stars .star:nth-child(6) {
-  --star-tail-length: 5.54em;
-  --top-offset: 57.99vh;
-  --fall-duration: 6.172s;
-  --fall-delay: 2.828s;
+  --star-tail-length: 7.44em;
+  --top-offset: 53.49vh;
+  --fall-duration: 8.174s;
+  --fall-delay: 3.203s;
 }
 .hero__section .stars .star:nth-child(7) {
-  --star-tail-length: 7.09em;
-  --top-offset: 60.91vh;
-  --fall-duration: 8.702s;
-  --fall-delay: 0.165s;
+  --star-tail-length: 6.06em;
+  --top-offset: 34.11vh;
+  --fall-duration: 6.783s;
+  --fall-delay: 1.573s;
 }
 .hero__section .stars .star:nth-child(8) {
-  --star-tail-length: 5.05em;
-  --top-offset: 76.12vh;
-  --fall-duration: 10.171s;
-  --fall-delay: 3.278s;
+  --star-tail-length: 6.39em;
+  --top-offset: 71.08vh;
+  --fall-duration: 8.411s;
+  --fall-delay: 4.132s;
 }
 .hero__section .stars .star:nth-child(9) {
-  --star-tail-length: 7.01em;
-  --top-offset: 62.51vh;
-  --fall-duration: 11.479s;
-  --fall-delay: 1.098s;
+  --star-tail-length: 6.82em;
+  --top-offset: 78.5vh;
+  --fall-duration: 10.078s;
+  --fall-delay: 3.539s;
 }
 .hero__section .stars .star:nth-child(10) {
-  --star-tail-length: 6.08em;
-  --top-offset: 97.89vh;
-  --fall-duration: 11.468s;
-  --fall-delay: 3.95s;
+  --star-tail-length: 7.23em;
+  --top-offset: 43.55vh;
+  --fall-duration: 8.312s;
+  --fall-delay: 1.807s;
 }
 .hero__section .stars .star:nth-child(11) {
-  --star-tail-length: 6.6em;
-  --top-offset: 39.98vh;
-  --fall-duration: 8.462s;
-  --fall-delay: 4.473s;
+  --star-tail-length: 5.87em;
+  --top-offset: 37.21vh;
+  --fall-duration: 9.239s;
+  --fall-delay: 0.303s;
 }
 .hero__section .stars .star:nth-child(12) {
-  --star-tail-length: 5.24em;
-  --top-offset: 54.62vh;
-  --fall-duration: 6.569s;
-  --fall-delay: 1.294s;
+  --star-tail-length: 7.08em;
+  --top-offset: 45.25vh;
+  --fall-duration: 8.396s;
+  --fall-delay: 0.522s;
 }
 .hero__section .stars .star:nth-child(13) {
-  --star-tail-length: 7.46em;
-  --top-offset: 59.34vh;
-  --fall-duration: 10.703s;
-  --fall-delay: 1.948s;
+  --star-tail-length: 6.44em;
+  --top-offset: 50.06vh;
+  --fall-duration: 6.679s;
+  --fall-delay: 1.342s;
 }
 .hero__section .stars .star:nth-child(14) {
-  --star-tail-length: 6.92em;
-  --top-offset: 69.17vh;
-  --fall-duration: 10.263s;
-  --fall-delay: 1.778s;
+  --star-tail-length: 6.87em;
+  --top-offset: 37.85vh;
+  --fall-duration: 6.398s;
+  --fall-delay: 3.82s;
 }
 .hero__section .stars .star:nth-child(15) {
-  --star-tail-length: 6.55em;
-  --top-offset: 50.65vh;
-  --fall-duration: 8.054s;
-  --fall-delay: 4.635s;
+  --star-tail-length: 5.96em;
+  --top-offset: 55.22vh;
+  --fall-duration: 10.639s;
+  --fall-delay: 3.784s;
 }
 .hero__section .stars .star:nth-child(16) {
-  --star-tail-length: 6.79em;
-  --top-offset: 81.08vh;
-  --fall-duration: 11.047s;
-  --fall-delay: 4.218s;
+  --star-tail-length: 6.45em;
+  --top-offset: 21.15vh;
+  --fall-duration: 8.964s;
+  --fall-delay: 4.939s;
 }
 .hero__section .stars .star:nth-child(17) {
-  --star-tail-length: 5em;
-  --top-offset: 50.47vh;
-  --fall-duration: 7.56s;
-  --fall-delay: 0.269s;
+  --star-tail-length: 6.32em;
+  --top-offset: 77.94vh;
+  --fall-duration: 8.893s;
+  --fall-delay: 1.108s;
 }
 .hero__section .stars .star:nth-child(18) {
-  --star-tail-length: 6.83em;
-  --top-offset: 18.07vh;
-  --fall-duration: 10.495s;
-  --fall-delay: 2.325s;
+  --star-tail-length: 5.58em;
+  --top-offset: 93.02vh;
+  --fall-duration: 9.738s;
+  --fall-delay: 1.298s;
 }
 .hero__section .stars .star:nth-child(19) {
-  --star-tail-length: 5.52em;
-  --top-offset: 16.56vh;
-  --fall-duration: 10.073s;
-  --fall-delay: 2.686s;
+  --star-tail-length: 7.32em;
+  --top-offset: 13.75vh;
+  --fall-duration: 10.49s;
+  --fall-delay: 2.671s;
 }
 .hero__section .stars .star:nth-child(20) {
-  --star-tail-length: 5.69em;
-  --top-offset: 82.45vh;
-  --fall-duration: 6.439s;
-  --fall-delay: 2.547s;
+  --star-tail-length: 5.47em;
+  --top-offset: 57.77vh;
+  --fall-duration: 9.18s;
+  --fall-delay: 0.449s;
 }
 .hero__section .stars .star:nth-child(21) {
-  --star-tail-length: 6.35em;
-  --top-offset: 28.96vh;
-  --fall-duration: 6.94s;
-  --fall-delay: 2.925s;
+  --star-tail-length: 7.08em;
+  --top-offset: 56.9vh;
+  --fall-duration: 6.374s;
+  --fall-delay: 3.489s;
 }
 .hero__section .stars .star:nth-child(22) {
-  --star-tail-length: 6.28em;
-  --top-offset: 11.91vh;
-  --fall-duration: 7.743s;
-  --fall-delay: 2.912s;
+  --star-tail-length: 5.97em;
+  --top-offset: 38.24vh;
+  --fall-duration: 9.411s;
+  --fall-delay: 3.411s;
 }
 .hero__section .stars .star:nth-child(23) {
-  --star-tail-length: 6.39em;
-  --top-offset: 21.63vh;
-  --fall-duration: 10.595s;
-  --fall-delay: 2.258s;
+  --star-tail-length: 6.77em;
+  --top-offset: 64.02vh;
+  --fall-duration: 6.401s;
+  --fall-delay: 1.072s;
 }
 .hero__section .stars .star:nth-child(24) {
-  --star-tail-length: 5.98em;
-  --top-offset: 94.86vh;
-  --fall-duration: 9.402s;
-  --fall-delay: 1.281s;
+  --star-tail-length: 6.9em;
+  --top-offset: 48.69vh;
+  --fall-duration: 8.961s;
+  --fall-delay: 0.244s;
 }
 .hero__section .stars .star:nth-child(25) {
-  --star-tail-length: 5.3em;
-  --top-offset: 60.88vh;
-  --fall-duration: 7.246s;
-  --fall-delay: 4.848s;
+  --star-tail-length: 7.01em;
+  --top-offset: 84.67vh;
+  --fall-duration: 6.136s;
+  --fall-delay: 0.047s;
 }
 .hero__section .stars .star:nth-child(26) {
-  --star-tail-length: 5.18em;
-  --top-offset: 71.6vh;
-  --fall-duration: 10.746s;
-  --fall-delay: 4.27s;
+  --star-tail-length: 6.36em;
+  --top-offset: 12.94vh;
+  --fall-duration: 9.272s;
+  --fall-delay: 4.383s;
 }
 .hero__section .stars .star:nth-child(27) {
-  --star-tail-length: 5.86em;
-  --top-offset: 90.57vh;
-  --fall-duration: 11.819s;
-  --fall-delay: 1.617s;
+  --star-tail-length: 5.06em;
+  --top-offset: 36.81vh;
+  --fall-duration: 9.246s;
+  --fall-delay: 0.306s;
 }
 .hero__section .stars .star:nth-child(28) {
-  --star-tail-length: 6.37em;
-  --top-offset: 79.91vh;
-  --fall-duration: 8.274s;
-  --fall-delay: 2.94s;
+  --star-tail-length: 5.13em;
+  --top-offset: 32.58vh;
+  --fall-duration: 9.059s;
+  --fall-delay: 4.802s;
 }
 .hero__section .stars .star:nth-child(29) {
-  --star-tail-length: 5.89em;
-  --top-offset: 81.06vh;
-  --fall-duration: 9.507s;
-  --fall-delay: 3.905s;
+  --star-tail-length: 6.85em;
+  --top-offset: 49.33vh;
+  --fall-duration: 7.16s;
+  --fall-delay: 4.08s;
 }
 .hero__section .stars .star:nth-child(30) {
-  --star-tail-length: 5.83em;
-  --top-offset: 78.69vh;
-  --fall-duration: 9.597s;
-  --fall-delay: 2.836s;
+  --star-tail-length: 5.92em;
+  --top-offset: 49.09vh;
+  --fall-duration: 6.612s;
+  --fall-delay: 2.107s;
 }
 .hero__section .stars .star:nth-child(31) {
-  --star-tail-length: 6.04em;
-  --top-offset: 20.61vh;
-  --fall-duration: 8.611s;
-  --fall-delay: 2.691s;
+  --star-tail-length: 6.14em;
+  --top-offset: 66.06vh;
+  --fall-duration: 11.714s;
+  --fall-delay: 1.895s;
 }
 .hero__section .stars .star:nth-child(32) {
-  --star-tail-length: 6.22em;
-  --top-offset: 26.61vh;
-  --fall-duration: 9.224s;
-  --fall-delay: 0.896s;
+  --star-tail-length: 5.51em;
+  --top-offset: 7.63vh;
+  --fall-duration: 10.245s;
+  --fall-delay: 3.142s;
 }
 .hero__section .stars .star:nth-child(33) {
-  --star-tail-length: 6.83em;
-  --top-offset: 13.88vh;
-  --fall-duration: 9.207s;
-  --fall-delay: 4.609s;
+  --star-tail-length: 7.46em;
+  --top-offset: 98.88vh;
+  --fall-duration: 7.74s;
+  --fall-delay: 1.086s;
 }
 .hero__section .stars .star:nth-child(34) {
-  --star-tail-length: 7.39em;
-  --top-offset: 97.16vh;
-  --fall-duration: 7.985s;
-  --fall-delay: 3.607s;
+  --star-tail-length: 6.99em;
+  --top-offset: 81.96vh;
+  --fall-duration: 10.695s;
+  --fall-delay: 1.297s;
 }
 .hero__section .stars .star:nth-child(35) {
-  --star-tail-length: 5.02em;
-  --top-offset: 28.14vh;
-  --fall-duration: 8.131s;
-  --fall-delay: 1.322s;
+  --star-tail-length: 6.19em;
+  --top-offset: 23.66vh;
+  --fall-duration: 11.375s;
+  --fall-delay: 0.872s;
 }
 .hero__section .stars .star:nth-child(36) {
-  --star-tail-length: 6.63em;
-  --top-offset: 89.4vh;
-  --fall-duration: 7.422s;
-  --fall-delay: 3.419s;
+  --star-tail-length: 6.46em;
+  --top-offset: 88.98vh;
+  --fall-duration: 9.078s;
+  --fall-delay: 3.551s;
 }
 .hero__section .stars .star:nth-child(37) {
-  --star-tail-length: 6.88em;
-  --top-offset: 24.63vh;
-  --fall-duration: 8.595s;
-  --fall-delay: 1.452s;
+  --star-tail-length: 6.65em;
+  --top-offset: 10.18vh;
+  --fall-duration: 8.908s;
+  --fall-delay: 1.407s;
 }
 .hero__section .stars .star:nth-child(38) {
-  --star-tail-length: 5.24em;
-  --top-offset: 54.81vh;
-  --fall-duration: 7.893s;
-  --fall-delay: 3.981s;
+  --star-tail-length: 7.3em;
+  --top-offset: 96.41vh;
+  --fall-duration: 6.063s;
+  --fall-delay: 4.344s;
 }
 .hero__section .stars .star:nth-child(39) {
-  --star-tail-length: 5.6em;
-  --top-offset: 50.09vh;
-  --fall-duration: 10.472s;
-  --fall-delay: 1.168s;
+  --star-tail-length: 7.21em;
+  --top-offset: 52.15vh;
+  --fall-duration: 6.103s;
+  --fall-delay: 4.391s;
 }
 .hero__section .stars .star:nth-child(40) {
-  --star-tail-length: 6em;
-  --top-offset: 41.8vh;
-  --fall-duration: 7.987s;
-  --fall-delay: 4.428s;
+  --star-tail-length: 5.82em;
+  --top-offset: 98.17vh;
+  --fall-duration: 11.083s;
+  --fall-delay: 1.776s;
 }
 .hero__section .stars .star:nth-child(41) {
-  --star-tail-length: 5.7em;
-  --top-offset: 8.53vh;
-  --fall-duration: 11.19s;
-  --fall-delay: 1.641s;
+  --star-tail-length: 6em;
+  --top-offset: 57.82vh;
+  --fall-duration: 10.442s;
+  --fall-delay: 1.478s;
 }
 .hero__section .stars .star:nth-child(42) {
-  --star-tail-length: 5.61em;
-  --top-offset: 29.39vh;
-  --fall-duration: 10.408s;
-  --fall-delay: 2.015s;
+  --star-tail-length: 6.46em;
+  --top-offset: 81.36vh;
+  --fall-duration: 11.396s;
+  --fall-delay: 3.787s;
 }
 .hero__section .stars .star:nth-child(43) {
-  --star-tail-length: 6.41em;
-  --top-offset: 10.46vh;
-  --fall-duration: 6.324s;
-  --fall-delay: 2.043s;
+  --star-tail-length: 5.33em;
+  --top-offset: 2.2vh;
+  --fall-duration: 7.365s;
+  --fall-delay: 1.051s;
 }
 .hero__section .stars .star:nth-child(44) {
-  --star-tail-length: 7.19em;
-  --top-offset: 28.82vh;
-  --fall-duration: 9.395s;
-  --fall-delay: 0.562s;
+  --star-tail-length: 6.99em;
+  --top-offset: 89.9vh;
+  --fall-duration: 11.148s;
+  --fall-delay: 1.773s;
 }
 .hero__section .stars .star:nth-child(45) {
-  --star-tail-length: 6.09em;
-  --top-offset: 49.17vh;
-  --fall-duration: 8.706s;
-  --fall-delay: 3.426s;
+  --star-tail-length: 5.1em;
+  --top-offset: 96.74vh;
+  --fall-duration: 6.718s;
+  --fall-delay: 1.209s;
 }
 .hero__section .stars .star:nth-child(46) {
-  --star-tail-length: 5.62em;
-  --top-offset: 84.69vh;
-  --fall-duration: 6.227s;
-  --fall-delay: 4.958s;
+  --star-tail-length: 6.87em;
+  --top-offset: 23.7vh;
+  --fall-duration: 6.518s;
+  --fall-delay: 4.099s;
 }
 .hero__section .stars .star:nth-child(47) {
-  --star-tail-length: 7.31em;
-  --top-offset: 63.44vh;
-  --fall-duration: 11.416s;
-  --fall-delay: 4.83s;
+  --star-tail-length: 5.22em;
+  --top-offset: 53.66vh;
+  --fall-duration: 10.467s;
+  --fall-delay: 2.644s;
 }
 .hero__section .stars .star:nth-child(48) {
-  --star-tail-length: 7.33em;
-  --top-offset: 63.93vh;
-  --fall-duration: 6.805s;
-  --fall-delay: 2.39s;
+  --star-tail-length: 6.94em;
+  --top-offset: 80.09vh;
+  --fall-duration: 7.801s;
+  --fall-delay: 1.285s;
 }
 .hero__section .stars .star:nth-child(49) {
-  --star-tail-length: 5.7em;
-  --top-offset: 51.84vh;
-  --fall-duration: 7.35s;
-  --fall-delay: 1.156s;
+  --star-tail-length: 6.8em;
+  --top-offset: 65.89vh;
+  --fall-duration: 8.64s;
+  --fall-delay: 4.312s;
 }
 .hero__section .stars .star:nth-child(50) {
-  --star-tail-length: 6.74em;
-  --top-offset: 82.01vh;
-  --fall-duration: 10.847s;
-  --fall-delay: 1.51s;
+  --star-tail-length: 5.19em;
+  --top-offset: 56.53vh;
+  --fall-duration: 8.584s;
+  --fall-delay: 1.344s;
 }
 .hero__section .stars .star::before, .hero__section .stars .star::after {
   position: absolute;
@@ -706,7 +706,7 @@ body {
 
 .about__me__section {
   position: relative;
-  background: #F8CB54;
+  background: #f8cb54;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -966,7 +966,7 @@ body {
   }
 }
 .services__section .skill__wrapper .skill__item {
-  border: 1px solid #F8CB54;
+  border: 1px solid #f8cb54;
   border-radius: 16px;
   padding: 3px 25px;
   margin: 10px 10px 0px;
@@ -976,7 +976,7 @@ body {
   transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .services__section .skill__wrapper .skill__item:hover {
-  background: #F8CB54;
+  background: #f8cb54;
   color: white;
 }
 
@@ -1001,6 +1001,7 @@ body {
   width: 75%;
   padding-left: 25px;
   padding-right: 25px;
+  overflow-y: visible;
 }
 @media screen and (max-width: 1400px) {
   .projects__section .swiper-conatiner {
@@ -1015,6 +1016,7 @@ body {
   overflow: hidden;
   padding: 1.25rem;
   position: relative;
+  border: 0;
   -webkit-transition: 0.15s ease-in;
   transition: 0.15s ease-in;
 }
@@ -1121,7 +1123,7 @@ body {
   font-size: 12px;
 }
 .projects__section .swiper-conatiner .swiper-wrapper .card-header .comppany__name b {
-  color: #F8CB54;
+  color: #f8cb54;
   text-transform: uppercase;
 }
 .projects__section .swiper-conatiner .swiper-wrapper .card-footer {
@@ -1190,6 +1192,53 @@ body {
 }
 .projects__section .swiper-conatiner .swiper-pagination .swiper-pagination-bullet-active {
   background: #f8cb55;
+}
+
+.consultation__section {
+  min-height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  background: #f8cb54;
+  text-align: center;
+  font-family: "Inter", serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.consultation__section .consultation__heading {
+  font-size: 48px;
+  font-family: Bebas Neue, sans-serif;
+  font-weight: 900;
+  margin-bottom: 25px;
+  color: #293684;
+}
+.consultation__section .consultation__text {
+  display: block;
+  font-size: 18px;
+  color: #000000;
+}
+.consultation__section .consultation__button {
+  display: inline-block;
+  width: auto;
+  margin-top: 25px;
+  padding: 10px 12px;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.consultation__section .consultation__button:hover {
+  background: #293684;
+  color: #ffffff;
 }
 
 .footer__module {
@@ -1403,7 +1452,7 @@ body {
 .footer__module .footer__content__wrapper #jquery_form .submit-btn {
   width: 25%;
   margin-top: 25px;
-  background: #F8CB54;
+  background: #f8cb54;
   color: #000000;
   font-size: 24px;
   font-weight: 900;
