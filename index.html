@@ -8,7 +8,8 @@
     <title>Ammar Hameed | Web Developer | Designer 😎 </title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon3.png">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alphardex/aqua.css@master/dist/aqua.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alphardex/aqua.css@master/dist/aqua.min.css"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -110,7 +111,7 @@
             <div class="star"></div>
         </div>
         <div class="hero__title">
-            <div class="hero__title__top">
+            <div class="hero__title__top" data-aos="fade-right">
                 <span class="hero__title__left">
                     <span class="hero__hover">f</span>
                     <span class="hero__hover">r</span>
@@ -125,7 +126,7 @@
                     <span class="hero__hover">d</span>
                 </span>
             </div>
-            <div class="hero__title__bottom">
+            <div class="hero__title__bottom" data-aos="fade-left">
                 <span class="hero__title__bottomleft">
                     <span class="hero__hover">d</span>
                     <span class="hero__hover">e</span>
@@ -153,10 +154,10 @@
     </section>
     <section class="about__me__section" id="about">
         <div id="cursor-blob"></div>
-        <div class="ams__left">
+        <div class="ams__left" data-aos="fade-up">
             <img class="link" src="assets/img/memoji.png" />
         </div>
-        <div class="ams__right">
+        <div class="ams__right" data-aos="fade-up">
             <div class="textual__content">
                 <span class="hello__text">Hi! I'm </span>
                 <h2 class="tc__heading link">Muhammad <br> Ammar Hameed</h2>
@@ -174,7 +175,7 @@
         </div>
     </section>
     <section class="services__section" id="services">
-        <div class="heading__wrapper">
+        <div class="heading__wrapper" data-aos="fade-up">
             <h4>Services</h4>
             <p class="services__subheading">Your vision, my expertise. Together, we create something extraordinary.</p>
         </div>
@@ -184,21 +185,21 @@
                     <i class="web__dev--icon service__icon"></i>
                     <span class="service__caption">Web development</span>
                 </div> -->
-                <div class="service__item">
+                <div class="service__item" data-aos="fade-right">
                     <i class="web__design--icon service__icon"></i>
                     <span class="service__caption">Web designing</span>
                 </div>
                 <div class="service__item">
-                    <i class="web__app--icon service__icon"></i>
+                    <i class="web__app--icon service__icon" data-aos="fade-up"></i>
                     <span class="service__caption">Web application</span>
                 </div>
                 <div class="service__item">
-                    <i class="mobile__app--icon service__icon"></i>
+                    <i class="mobile__app--icon service__icon" data-aos="fade-left"></i>
                     <span class="service__caption">Mobile applications</span>
                 </div>
             </div>
         </div>
-        <div class="skill__wrapper">
+        <div class="skill__wrapper" data-aos="zoom-in">
             <div class="skill__item">reactjs</div>
             <div class="skill__item">angular</div>
             <div class="skill__item">react Native</div>
@@ -219,10 +220,10 @@
         </div>
     </section>
     <section class="projects__section" id="projects">
-        <div class="heading__wrapper">
+        <div class="heading__wrapper" data-aos="fade-up">
             <h4>Projects</h4>
         </div>
-        <div class="swiper projectSwiper swiper-conatiner">
+        <div class="swiper projectSwiper swiper-conatiner" data-aos="fade-up">
             <div class="swiper-wrapper">
                 <div class="swiper-slide card">
                     <figure class="card-image">
@@ -578,12 +579,12 @@
     <section class="consultation__section" id="consultation">
         <h5 class="consultation__heading">consultation</h5>
         <h5 class="consultation__text">I offer expert advice and solutions for software development challenges.</h5>
-        <a class="consultation__button" href="https://calendly.com/ammar-44fa/consultation" target="_blank">Book a Consultation</a>
+        <a class="consultation__button" href="https://calendly.com/ammar-44fa/consultation" target="_blank" data-aos="fade-up">Book a Consultation</a>
     </section>
     <footer class="footer__module" id="contact">
         <div class="footer__content__wrapper">
-            <h1 class="footer__tagline">I'm just an email away, <br> let's design a masterpiece together!</h1>
-            <div class="social__icons">
+            <h1 class="footer__tagline" data-aos="fade-right">I'm just an email away, <br> let's design a masterpiece together!</h1>
+            <div class="social__icons" data-aos="fade-right">
                 <a class="social__icon" href="https://www.linkedin.com/in/ammar-hameed-13400a52/" target="_blank">
                     <i class="linkedin__icon icon"></i>
                 </a>
@@ -600,7 +601,7 @@
                     <i class="gmail__icon icon"></i>
                 </a>
             </div>
-            <form id="jquery_form">
+            <form id="jquery_form" data-aos="fade-left">
                 <input type="hidden" name="subject" placeholder="Subject" />
                 <div class="form-row">
                     <input name="text" placeholder="Full Name" />
@@ -612,7 +613,7 @@
                     <textarea name="extra_email" rows="10"
                         placeholder="Hi Ammar, I have an idea which needs your expertise..."></textarea>
                 </div>
-                <input type="submit" name="send" class="submit-btn" value="shoot" />
+                <input type="submit" name="send" class="submit-btn" value="shoot" data-aos="fade-up" />
 
             </form>
         </div>
@@ -623,9 +624,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/TextPlugin.min.js"></script> -->
     <script type="module" src="assets/js/app.js"></script>
     <script>
+        AOS.init();
         // $(window).on("scroll", function () {
         //     console.log($(window).scrollTop())
         //     if ($(window).scrollTop() >= 70){
