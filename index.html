@@ -319,7 +319,7 @@
                         <div class="card__header--upper">
                             <p class="project__name">Age Envy</p>
 
-                            <a class="icon-button" href="#">
+                            <a class="icon-button" href="https://ageenvy.com/">
                                 <i class="external__link--icon"></i>
                             </a>
                         </div>
@@ -613,7 +613,7 @@
                     <textarea name="extra_email" rows="10"
                         placeholder="Hi Ammar, I have an idea which needs your expertise..."></textarea>
                 </div>
-                <input type="submit" name="send" class="submit-btn" value="shoot" data-aos="fade-up" />
+                <input type="submit" name="send" class="submit-btn" value="shoot" />
 
             </form>
         </div>
@@ -629,15 +629,6 @@
     <script type="module" src="assets/js/app.js"></script>
     <script>
         AOS.init();
-        // $(window).on("scroll", function () {
-        //     console.log($(window).scrollTop())
-        //     if ($(window).scrollTop() >= 70){
-        //     $('body').addClass("scrolling-content")
-        // }
-        //     if ($(window).scrollTop() <= 70){
-        //     $('body').removeClass("scrolling-content")
-        // }
-        // });
 
         $(".link__item, .nav__logo a").on("click", function (e) {
             var i = $(this.getAttribute("href"));
@@ -652,7 +643,7 @@
         var swiper = new Swiper(".projectSwiper", {
             slidesPerView: 3,
             spaceBetween: 30,
-            loop: true, 
+            loop: true,
             autoplay: true, 
             keyboard: {
                 enabled: true,
@@ -670,6 +661,7 @@
                 320: {
                     slidesPerView: 1,
                     spaceBetween: 20,
+                    centeredSlidesBounds: true,
                 },
                 640: {
                     slidesPerView: 2,
